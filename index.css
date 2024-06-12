@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
+  
+  .background {
+    background: url('https://img.freepik.com/free-photo/online-school-equipment-home_23-2149041150.jpg?w=1380&t=st=1718171446~exp=1718172046~hmac=93f6276ca8451a16e1955afff8006428325fe58c38c59508a2d274082831e044');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+    z-index: -1;
+    filter: blur(18px);
+  }
+  
